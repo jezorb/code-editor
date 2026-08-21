@@ -212,11 +212,11 @@ Start each service in its own terminal:
 ```bash
 # 1. Start the API + Socket.IO server
 cd server
-npm run dev
+npm start
 
 # 2. Start the worker (consumes jobs and runs Docker containers)
 cd workers
-node worker.js
+npm start
 
 # 3. Start the client
 cd client
