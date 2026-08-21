@@ -1,4 +1,4 @@
-# Online Code Execution Platform
+# RunX
 
 A full-stack, real-time online code runner (à la LeetCode/Judge0) that lets users write code in a browser-based editor and execute it safely inside isolated Docker containers. Execution status and output stream back to the client live over WebSockets.
 
